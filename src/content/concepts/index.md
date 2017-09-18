@@ -18,7 +18,7 @@ This document is intended to give a **high-level** overview of these concepts, w
 
 ## Entry
 
-webpack creates a graph of all of your application's dependencies. The starting point of this graph is known as an _entry point_. The _entry point_ tells webpack _where to start_ and follows the graph of dependencies to know _what to bundle_. You can think of your application's _entry point_ as the **contextual root** or **the first file to kick off your app**.
+webpack creates a graph of all of your application's dependencies. The starting point of this graph is known as an _entry point_. The _entry point_ tells webpack _where to start_. webpack follows the graph of dependencies to know _what to bundle_. You can think of your application's _entry point_ as the **contextual root** or **the first file to kick off your app**.
 
 In webpack we define _entry points_ using the `entry` property in our [webpack configuration object](/configuration).
 
